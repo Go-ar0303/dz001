@@ -11,13 +11,13 @@
 }
 
 .App{
-  background-color: #aab6cf;
+  background-color: #4a5264;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(25px + 4vmin);
   color: white;
 }
 
@@ -32,4 +32,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+  min-height: 10vh;
 }
